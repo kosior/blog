@@ -1,0 +1,7 @@
+language: python
+python: 3.6
+script: coverage run manage.py test
+install:
+  - pip install -r requirements.txt
+after_success:
+- bash <(curl -s https://codecov.io/bash)
