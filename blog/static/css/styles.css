@@ -1,0 +1,12 @@
+body {
+    padding-top: 4.5rem;
+}
+
+.break-word {
+    overflow-wrap: break-word;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
