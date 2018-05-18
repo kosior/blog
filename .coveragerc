@@ -1,0 +1,6 @@
+[run]
+source = blog/
+branch = True
+omit = 
+    */migrations/*
+    */tests/*
